@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## This is the site where our neighbors can post community related events/issues/suggestions.  Anonymous users can only view the posts/comments.  Login as u:naoko/p:12345 if you would like to add posts.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Installation
+$ gem install railsblog

@@ -6,3 +6,11 @@
 		<%= link_to "Read More", post_path(post), :class => 'btn btn-default' %>
 	</div>
 <% end %>
+<div class="well">
+	<h4>BBC Tweets</h4>
+	<ul>
+		<% TwitterApi.public_tweets.each do |tweet| %>
+			<li><%= tweet.text %></li>
+		<% end %>			
+	</ul>
+</div>
